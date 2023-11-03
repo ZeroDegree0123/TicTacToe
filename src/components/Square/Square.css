@@ -1,0 +1,8 @@
+.square {
+    color: white;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border: solid white 2px;
+    background-color: #23252b;
+}

@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-title {
+    font-size: 5rem;
+}
+
+.menu-selection-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 50%;
+}
+
+.menu-list-item {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-links>p {
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+    background-color: var(--primary);
+    border: 2px solid salmon;
+    border-radius: 15px;
+    width: 100%;
+}

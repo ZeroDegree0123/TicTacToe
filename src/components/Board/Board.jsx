@@ -1,5 +1,5 @@
-import '../App.css';
-import Square from './Square';
+import "./Board.css"
+import Square from '../Square/Square';
 
 
 export default function Board({ turn, onPlay, squares }) {
@@ -53,7 +53,7 @@ export default function Board({ turn, onPlay, squares }) {
     return (
         <>
             <section className='board'>
-                <h1>Tic-Tac-Toe</h1>
+                <h1 className="board-title">Tic-Tac-Toe</h1>
                 <div>{status}</div>
                 <div className='board-row'>
                     <Square value={squares[0]} handleClick={() => handleClick(0)} />

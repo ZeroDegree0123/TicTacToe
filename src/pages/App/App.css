@@ -1,0 +1,8 @@
+body {
+  background-color: var(--primary);
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+}

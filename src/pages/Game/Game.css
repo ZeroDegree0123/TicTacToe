@@ -1,0 +1,52 @@
+.game {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.game-link {
+    color: aqua;
+    text-decoration: none;
+    background-color: var(--primary);
+    border: 2px solid salmon;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    border-top: 2px solid salmon;
+    margin-top: 20px;
+}
+
+.move-list {
+    padding: 0;
+    width: 100%;
+}
+
+.move-list-item {
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.move-list-item>button {
+    background-color: salmon;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    width: 50%;
+}
